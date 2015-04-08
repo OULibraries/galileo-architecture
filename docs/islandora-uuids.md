@@ -65,7 +65,7 @@ ARK is a good standard, and the URI metadata and commitment statements
 built in to ARK seem like really good ideas. It's unfortunate that we
 won't get those.
 
-However, support for ARK isn't build in to Islandora and it hasn't
+However, support for ARK isn't built in to Islandora and it hasn't
 been widely adopted by the Islandora or Fedroa communities. There is
 an existing [islandora_ark](https://github.com/ksclarke/islandora_ark)
 module, but it's a work in progress that hasn't been updated for two

@@ -111,7 +111,7 @@ integration with this is still pretty basic.
   Fedora PID of repo objects, which will be  UUIDs.
 
 
-### Drupal's UUIDs module
+### Drupal's UUID module
 
 The [Drupal UUID module](https://www.drupal.org/project/uuid) can be
 used to add a UUID to Drupal objects. The main purpose of this seems

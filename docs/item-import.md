@@ -6,7 +6,7 @@
 ## Example: Importing a book
 
 Here's our general plan for how importing a book should work. Curently
-ignoring the existinece of glacier, and the desire to changelog the
+ignoring the existence of glacier, and the desire to changelog the
 bags.
 
 1. DigLab scans a book to produce a set of tiffs and notes page-level descriptive metadata
@@ -17,7 +17,7 @@ bags.
   * exports metadata from the catalog and exhibit site to the bag path
   * generates UUIDs for the book and for each page of the book
   * generates an import map file that includes those UUIDs
-1. File Archive rebags the files
+1. File Archive rebags with the files generated in previous step
 1. Repository services builds a repository object based on the recipe provided by the mapfile.
 
 

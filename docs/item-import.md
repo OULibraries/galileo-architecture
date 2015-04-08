@@ -1,4 +1,4 @@
-# Building Repository Objects From Content in the File Archive
+# Building Repository Objects from the File Archive
 
 
 

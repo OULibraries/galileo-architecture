@@ -72,7 +72,6 @@ module, but it's a work in progress that hasn't been updated for two
 years. Also, the module seems to depend on CDL's EZID service to
 generate ARKs.
 
-
 ## UUIDs as Fedora Identifiers
 
 [Fedora Identifiers](https://wiki.duraspace.org/display/FEDORA38/Fedora+Identifiers)
@@ -98,7 +97,7 @@ integration with this is still pretty basic.
   basic tool for associating urls with content.
 * [subpathauto](https://www.drupal.org/project/subpathauto) extends
   pathauto so that it works below the node/entity level and an be used
-  for things like contact forms (`/user/1/contact`) and vies arguments
+  for things like contact forms (`/user/1/contact`) and views arguments
   (`node/$/view`)
 * [globalredirect](https://www.drupal.org/project/globalredirect) or
   [redirect](https://www.drupal.org/project/redirect) can be used to

@@ -115,7 +115,7 @@ integration with this is still pretty basic.
 The [Drupal UUID module](https://www.drupal.org/project/uuid) can be
 used to add a UUID to Drupal objects. The main purpose of this seems
 to be in support of moving content between multiple Drupal sites, and
-it probably isn't a good fit at this point. It might eventually come
+it probably isn't really relevant to us. It might eventually come
 in to play as part of our Drupal dev process, or with Islandora 2.
 
 

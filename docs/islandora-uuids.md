@@ -103,9 +103,12 @@ integration with this is still pretty basic.
   [redirect](https://www.drupal.org/project/redirect) can be used to
   redirect from Drupal's default paths (`node/1`) to paths defind with
   pathauto to ensure a single canonical url is used.
-* [islandora_pathauto](https://github.com/Islandora/islandora_pathauto)
+*
+  [islandora_pathauto](https://github.com/Islandora/islandora_pathauto)
   extends pathauto to work with a limited set of Islandora object
-  properties, including the fedora PID and label.
+  properties, including the fedora PID and label. That should be
+  sufficient for our needs since we plan to base our urls on the
+  Fedora PID of repo objects, which will be  UUIDs.
 
 
 ### Drupal's UUIDs module

@@ -21,7 +21,7 @@ The following articles are great background reading on where we're at:
 We are currently using the Handle System for our DSpace-based SHAREOK
 repository sytem, but find ourselves largely in agreement with the
 criticisms presented in John Kunze's paper introducing ARK identifiers
-and have no plans to use them in new systems.
+and have no plans to use Handles in new systems.
 
 In summary: URIs are already pretty good identifiers, good tools
 already exists for mapping old URIs to new URIS when required, a

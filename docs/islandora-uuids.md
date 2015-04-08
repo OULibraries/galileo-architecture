@@ -7,8 +7,7 @@
 >  -- Phil Karlton
 
 >
-> ... persistence is purely a matter of service, and is neither inherent in an object nor
-> conferred on it by a particular naming syntax.
+> ... persistence is purely a matter of service, and is neither inherent in an object nor conferred on it by a particular naming syntax.
 > -- John A. Kunze
 
 ## Background and Motivation
@@ -47,14 +46,16 @@ Staples, and gives us a nice scheme for URIS that:
 This means it's likely that are urls will look like:
 
 ```
-https://example.com/
+https://example.com/bfbf9032-73ab-4fe3-9c74-568081d6dc67
 ```
 
 Although we might want to take additionalstructureal cues from ARK in
 our final design.
 
+## Human readable redirects
+
 Because UUID-based URLs are not particularly human friendly, we plan
-to maintain an additional set of semantic/mnemonic URIs for some
+to maintain an additional set of semantic/mnemonic URIs as redirects for some
 documents as required.
 
 
@@ -64,13 +65,12 @@ ARK is a good standard, and the URI metadata and commitment statements
 built in to ARK seem like really good ideas. It's unfortunate that we
 won't get those.
 
-However, support for ARK isn't build in to Islandora and it hasn't
+However, support for ARK isn't built in to Islandora and it hasn't
 been widely adopted by the Islandora or Fedroa communities. There is
 an existing [islandora_ark](https://github.com/ksclarke/islandora_ark)
 module, but it's a work in progress that hasn't been updated for two
 years. Also, the module seems to depend on CDL's EZID service to
 generate ARKs.
-
 
 ## UUIDs as Fedora Identifiers
 
@@ -97,21 +97,20 @@ integration with this is still pretty basic.
   basic tool for associating urls with content.
 * [subpathauto](https://www.drupal.org/project/subpathauto) extends
   pathauto so that it works below the node/entity level and an be used
-  for things like contact forms (`/user/1/contact`) and vies arguments
+  for things like contact forms (`/user/1/contact`) and views arguments
   (`node/$/view`)
 * [globalredirect](https://www.drupal.org/project/globalredirect) or
   [redirect](https://www.drupal.org/project/redirect) can be used to
   redirect from Drupal's default paths (`node/1`) to paths defind with
   pathauto to ensure a single canonical url is used.
-*
-  [islandora_pathauto](https://github.com/Islandora/islandora_pathauto)
+* [islandora_pathauto](https://github.com/Islandora/islandora_pathauto)
   extends pathauto to work with a limited set of Islandora object
   properties, including the fedora PID and label. That should be
   sufficient for our needs since we plan to base our urls on the
   Fedora PID of repo objects, which will be  UUIDs.
 
 
-### Drupal's UUIDs module
+### Drupal's UUID module
 
 The [Drupal UUID module](https://www.drupal.org/project/uuid) can be
 used to add a UUID to Drupal objects. The main purpose of this seems

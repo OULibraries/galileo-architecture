@@ -28,6 +28,13 @@ bags.
 
 For books, we'd exepct the mapfile to look something like:
 
+```yaml
+import: book
+uuid: ba8d9603-14d5-4cb8-8f61-8ddaca9e6be0
+metadata:
+  marcxml:book.xml 
+  pagemeta: page.xml
+pages:
   - page2.tiff 00e261a7-8531-4b08-a331-a8730c29e6c2
   - page3.tiff cc8f6120-43a2-4724-a34f-25293f82ea43
   - page4.tiff 8a655bb5-2ff3-4f6c-acef-68baedb87070

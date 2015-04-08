@@ -16,17 +16,17 @@ bags.
 1. Repository Services is given a bag path and catalog id and then:
   * exports metadata from the catalog and exhibit site to the bag path
   * generates UUIDs for the book and for each page of the book
-  * generates an import map file that includes those UUIDs
+  * generates an import recipe file that includes those UUIDs
 1. File Archive rebags with the files generated in previous step
 1. Repository Services builds a repository object based on the recipe provided by the mapfile.
 
 
-### Mapfiles
+### Recipe Files
 
 * TODO: Should these be YAML or JSON? 
 * TODO: Do we have to invent this wheel? Or is there something that's already defined that we can just use?
 
-For books, we'd exepct the mapfile to look something like:
+For books, we'd expect the file to look something like:
 
 ```yaml
 import: book

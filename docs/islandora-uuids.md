@@ -47,14 +47,16 @@ Staples, and gives us a nice scheme for URIS that:
 This means it's likely that are urls will look like:
 
 ```
-https://example.com/
+https://example.com/bfbf9032-73ab-4fe3-9c74-568081d6dc67
 ```
 
 Although we might want to take additionalstructureal cues from ARK in
 our final design.
 
+## Human readable redirects
+
 Because UUID-based URLs are not particularly human friendly, we plan
-to maintain an additional set of semantic/mnemonic URIs for some
+to maintain an additional set of semantic/mnemonic URIs as redirects for some
 documents as required.
 
 

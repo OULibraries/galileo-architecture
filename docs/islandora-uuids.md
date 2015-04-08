@@ -4,11 +4,12 @@
 
 >
 > There are only two hard things in Computer Science: cache invalidation and naming things.
+>
 >  -- Phil Karlton
 
 >
-> ... persistence is purely a matter of service, and is neither inherent in an object nor
-> conferred on it by a particular naming syntax.
+> ... persistence is purely a matter of service, and is neither inherent in an object nor conferred on it by a particular naming syntax.
+>
 > -- John A. Kunze
 
 ## Background and Motivation

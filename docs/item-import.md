@@ -55,3 +55,27 @@ For books, we'd expect a JSON recipe to look something like:
     }
 }
 ```
+
+# Bagit Import Project Specifics
+## Islandora content models for bagit import project:
+1. book
+2. large image
+ 
+## The bag data structure:
+1. Each of the bags is for building for an individual islandora content object and is identified by a unique bag folder name. For example, a bag for an islandora book object contains all the original, high-resolution TIFF image files.<br><br> 
+1. Each bag also contains an XML metadata file that contains all the metadata information for the TIFF file(s). For example, a book bag may contain the metadata file page.xml for the TIFF files. <br><br>
+1. If a bag contains multiple TIFF files, these files have alphanumerically ordered names to generated the pages of books in a correct order. <br><br>
+1. The islandora object metadata file (e.g., islandora book object) is also included in the bags.
+ 
+## The command line importing process:
+1. The importing logic has to be applicable or easily extendable to other islandora content models for future use.<br><br>
+1. The importing process has to have correct exception handling system, reporting specified errors and preventing system from collapse or other misconducts.<br><br>
+1. The format of command line should look like this:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;<b>drush import-function-name $metadata-uri $bag-uri<b><br><br>
+1. The importing should be a transactional process, which means the importing can never be partially complete. The already imported files will be cleaned up if the import fails.<br><br>
+1. After each conducted import, there should be a report generated.<br><br>
+2. In the rare cases of updating/deleting islandora content object pages, we can add/change/delete page images and the page numbers are also updated correspondly (Maybe implemented in the future).
+
+## Sample importing report:
+
+ 

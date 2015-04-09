@@ -2,6 +2,21 @@
 
 
 
+## Initial Focus
+
+We're initially interested in just two diferent content types:
+
+1. books
+2. large image collections
+
+
+## The bag data structure:
+1. Each of the bags is for building for an individual islandora content object and is identified by a unique bag folder name. For example, a bag for an islandora book object contains all the original, high-resolution TIFF image files.<br><br> 
+1. Each bag also contains an XML metadata file that contains all the metadata information for the TIFF file(s). For example, a book bag may contain the metadata file page.xml for the TIFF files. <br><br>
+1. If a bag contains multiple TIFF files, these files have alphanumerically ordered names to generated the pages of books in a correct order. <br><br>
+1. The islandora object metadata file (e.g., islandora book object) is also included in the bags.
+
+
 ## Example: Importing a book
 
 Here's our general plan for how importing a book should work. Currently
@@ -57,15 +72,7 @@ For books, we'd expect a JSON recipe to look something like:
 ```
 
 # Bagit Import Project Specifics
-## Islandora content models for bagit import project:
-1. book
-2. large image
  
-## The bag data structure:
-1. Each of the bags is for building for an individual islandora content object and is identified by a unique bag folder name. For example, a bag for an islandora book object contains all the original, high-resolution TIFF image files.<br><br> 
-1. Each bag also contains an XML metadata file that contains all the metadata information for the TIFF file(s). For example, a book bag may contain the metadata file page.xml for the TIFF files. <br><br>
-1. If a bag contains multiple TIFF files, these files have alphanumerically ordered names to generated the pages of books in a correct order. <br><br>
-1. The islandora object metadata file (e.g., islandora book object) is also included in the bags.
  
 ## The command line importing process:
 1. The importing logic has to be applicable or easily extendable to other islandora content models for future use.<br><br>

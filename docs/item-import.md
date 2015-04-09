@@ -77,7 +77,7 @@ We currently conceive object creation as a command line process where the interf
 ```
 drush import-function-name $bag-uri
 ```
-We may also want to specify a parent for the object to be created. 
+We may also want to specify a parent for the object to be created, but that could also be part of the item recipe. 
 
 ### Initial requirements for import
 1. The importing logic has to be applicable or easily extendable to other islandora content models for future use.

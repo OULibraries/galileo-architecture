@@ -72,9 +72,16 @@ For books, we'd expect a JSON recipe to look something like:
 ```
 
 ## Object Creation Details
+
+We currently conceive object creation as a command line process where the interface would look something like
+```
+drush import-function-name $bag-uri
+```
+We may also want to specify a parent for the object to be created. 
+
+### Initial requirements for import
 1. The importing logic has to be applicable or easily extendable to other islandora content models for future use.
 1. The importing process has to have correct exception handling system, reporting specified errors and preventing system from collapse or other misconducts.
-1. The format of command line should look like: `drush import-function-name $bag-uri`
 1. The importing should be a transactional process, which means the importing can never be partially complete. The already imported files will be cleaned up if the import fails.
 1. After each conducted import, there should be a report generated.
 1.  In the rare cases of updating/deleting islandora content object pages, we can add/change/delete page images and the page numbers are also updated correspondly (Maybe implemented in the future).

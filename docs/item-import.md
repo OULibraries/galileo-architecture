@@ -2,18 +2,18 @@
 
 
 
-## Initial Focus
-
 We're initially interested in just two diferent content types:
 
 1. books
-2. large image collections
+1. large image collections
 
 
-## The bag data structure:
-1. Each of the bags is for building for an individual islandora content object and is identified by a unique bag folder name. For example, a bag for an islandora book object contains all the original, high-resolution TIFF image files.<br><br> 
-1. Each bag also contains an XML metadata file that contains all the metadata information for the TIFF file(s). For example, a book bag may contain the metadata file page.xml for the TIFF files. <br><br>
-1. If a bag contains multiple TIFF files, these files have alphanumerically ordered names to generated the pages of books in a correct order. <br><br>
+## The File Archive
+
+### File Archive Bags:
+1. Each of the bags is for building for an individual islandora content object and is identified by a unique bag folder name. For example, a bag for an islandora book object contains all the original, high-resolution TIFF image files.
+1. Each bag also contains an XML metadata file that contains all the metadata information for the TIFF file(s). For example, a book bag may contain the metadata file page.xml for the TIFF files. 
+1. If a bag contains multiple TIFF files, these files have alphanumerically ordered names to generated the pages of books in a correct order. 
 1. The islandora object metadata file (e.g., islandora book object) is also included in the bags.
 
 

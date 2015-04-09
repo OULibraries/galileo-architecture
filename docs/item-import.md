@@ -42,7 +42,7 @@ For books, we'd expect a JSON recipe to look something like:
  
  ```json
  {
-    "receipe": {
+    "recipe": {
         "import": "book",
         "uuid": "ba8d9603-14d5-4cb8-8f61-8ddaca9e6be0",
         "metadata": {

@@ -35,7 +35,7 @@ bags.
 1. Repository Services builds a repository object based on the recipe provided by the mapfile, accessing bag contents from the File Archive via http
 
 
-### Recipe Files
+### Sample Recipe
 
 For books, we'd expect a JSON recipe to look something like:
 
@@ -102,7 +102,7 @@ We may also want to specify a parent for the object to be created, but that coul
   * List of the imported files, accompanied by the informaiton of original file name, UUID (if applicable), and the generated Islandora ID.
   * Results of running the checksum verificaiton.
 
-### Sample Bagit Import Report
+### Sample Report
 
 ```
 1. Import time: 04-09-2015, 5:30pm

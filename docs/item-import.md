@@ -2,7 +2,6 @@
 
 
 
-
 ## Example: Importing a book
 
 Here's our general plan for how importing a book should work. Currently
@@ -18,7 +17,7 @@ bags.
   * generates UUIDs for the book and for each page of the book
   * generates an import recipe file that includes those UUIDs
 1. File Archive rebags with the files generated in previous step
-1. Repository Services builds a repository object based on the recipe provided by the mapfile.
+1. Repository Services builds a repository object based on the recipe provided by the mapfile, accessing bag contents from the File Archive via http
 
 
 ### Recipe Files

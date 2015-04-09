@@ -49,7 +49,7 @@ This means it's likely that are urls will look like:
 https://example.com/bfbf9032-73ab-4fe3-9c74-568081d6dc67
 ```
 
-Although we might want to take additionalstructureal cues from ARK in
+Although we might want to take additional structural cues from ARK in
 our final design.
 
 ## Human readable redirects

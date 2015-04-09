@@ -17,7 +17,7 @@ We're initially interested in just two diferent content types:
 1. The islandora object metadata file (e.g., islandora book object) is also included in the bags.
 
 
-## Example: Importing a book
+## Importing a Book from the File Archive
 
 Here's our general plan for how importing a book should work. Currently
 ignoring the existence of Amazon Glacier, and the desire to changelog the

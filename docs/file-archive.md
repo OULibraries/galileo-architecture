@@ -5,6 +5,7 @@ The File archive will do
 * BagIt
 * Files
 * Folders
+
 But specifically no content modeling. 
 
 

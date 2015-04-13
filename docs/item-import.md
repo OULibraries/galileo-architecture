@@ -16,7 +16,7 @@ bags.
 
 1. DigiLab scans a book to produce a set of tiffs and notes page-level descriptive metadata
 1. DigiLab bags tiffs for export to file archive
-1. File Archive extracts page level metadata to xml
+1. File Archive extracts page level metadata
 1. File Archive rebags with page level metadata
 1. Repository Services is given a bag path and catalog id and then:
   * exports metadata from the catalog and exhibit site to the bag path

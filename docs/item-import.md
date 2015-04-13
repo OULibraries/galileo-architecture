@@ -7,8 +7,9 @@ We're initially interested in just two diferent content types:
 1. books
 1. large image collections
 
+from the File Archive. 
 
-## Importing a Book from the File Archive
+## Workflow for Importing a Book 
 
 Here's our general plan for how importing a book should work. Currently
 ignoring the existence of Amazon Glacier, and the desire to changelog the

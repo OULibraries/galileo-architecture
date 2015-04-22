@@ -72,7 +72,7 @@ For books, we'd expect a JSON recipe to look something like:
 
 We currently conceive object creation as a command line process where the interface would look something like
 ```
-drush import-function-name $file-archive-bag-uri
+drush import-function-name $file-archive-recipe-uri
 ```
 We may also want to specify a parent for the object to be created, but that could also be part of the item recipe. 
 

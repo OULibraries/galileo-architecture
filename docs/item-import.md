@@ -44,19 +44,24 @@ For books, we'd expect a JSON recipe to look something like:
         "pages": [
             [
                 "page1.tiff",
-                "00e261a7-8531-4b08-a331-a8730c29e6c2"
+                "00e261a7-8531-4b08-a331-a8730c29e6c2",
+                "69df526c83c9b0fbfae0a4c6618873be"
             ],
             [
                 "page2.tiff",
-                "cc8f6120-43a2-4724-a34f-25293f82ea43"
+                "cc8f6120-43a2-4724-a34f-25293f82ea43",
+                "69df526c83c9b0fbfae0a4c6618873be"
+                
             ],
             [
                 "page3.tiff",
-                "8a655bb5-2ff3-4f6c-acef-68baedb87070"
+                "8a655bb5-2ff3-4f6c-acef-68baedb87070",
+                "69df526c83c9b0fbfae0a4c6618873be"
             ],
             [
                 "page4.tiff",
-                "c553c267-bcba-4ddb-b9bb-0fe45ab2c3aa"
+                "c553c267-bcba-4ddb-b9bb-0fe45ab2c3aa",
+                "69df526c83c9b0fbfae0a4c6618873be"
             ]
         ]
     }

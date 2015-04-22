@@ -72,11 +72,11 @@ drush import-function-name $file-archive-bag-uri
 We may also want to specify a parent for the object to be created, but that could also be part of the item recipe. 
 
 ### Initial requirements for import
-1. The importing logic has to be applicable or easily extendable to other islandora content models for future use.
-1. The importing process has to have correct exception handling system, reporting specified errors and preventing system from collapse or other misconducts.
-1. The importing should be a transactional process, which means the importing can never be partially complete. The already imported files will be cleaned up if the import fails.
-1. After each conducted import, there should be a report generated.
-1.  In the rare cases of updating/deleting islandora content object pages, we can add/change/delete page images and the page numbers are also updated correspondly (Maybe implemented in the future).
+1. The importing logic has to be applicable or easily extensible to other islandora content models for future use.
+1. The importing process has to have an exception handling system, reporting specified errors and preventing system from collapse or other misconducts.
+1. The importing should be a transactional process, which means the importing can never be partially complete. Already-imported files will be cleaned up if the import fails.
+1. After each conducted import, a report should be generated.
+1.  In the rare cases of updating/deleting Islandora content object pages, we can add/change/delete page images and the page numbers are also updated correspondly (Maybe implemented in the future).
 
 
 ### Import Report:
@@ -86,12 +86,12 @@ We may also want to specify a parent for the object to be created, but that coul
 1. Import success or not.
 2. Import completion date and time.
 3. If the import fails:
-  * Reasons of failing;
-  * List of the files already imported, each of which should be identified by its file name and the UUID, if applicable, used in the bag, together withe the generated Islandora ID.
-  * In addition, indication if the imported files have been cleaned up (deleted from the Islandora box).
+  * Reasons for failure;
+  * List of the files already imported, each of which should be identified by its file name and the UUID, if applicable, used in the bag, together with the generated Islandora ID.
+  * In addition, an indication whether the imported files have been cleaned up (deleted from the Islandora box).
 4. If the import succeeds:
   * New Islandora object information.
-  * List of the imported files, accompanied by the informaiton of original file name, UUID (if applicable), and the generated Islandora ID.
+  * List of the imported files, accompanied by the information of original file name, UUID (if applicable), and the generated Islandora ID.
   * Results of running the checksum verificaiton.
 
 ### Sample Report

@@ -36,33 +36,33 @@ For books, we'd expect a JSON recipe to look something like:
  {
     "recipe": {
         "import": "book",
+        "update": true,
         "uuid": "ba8d9603-14d5-4cb8-8f61-8ddaca9e6be0",
         "metadata": {
             "marcxml": "book.xml",
-            "pagemeta": "page.xml"
         },
         "pages": [
             {
-                file: "page1.tiff",
-                uuid: "00e261a7-8531-4b08-a331-a8730c29e6c2",
-                sha1: "69df526c83c9b0fbfae0a4c6618873be"
+                "file": "page1.tiff",
+                "uuid": "00e261a7-8531-4b08-a331-a8730c29e6c2",
+                "sha1": "69df526c83c9b0fbfae0a4c6618873be"
             },
-            [
-                file: "page2.tiff",
-                uuid: "cc8f6120-43a2-4724-a34f-25293f82ea43",
-                sha1: "69df526c83c9b0fbfae0a4c6618873be"
+            {
+                "file": "page2.tiff",
+                "uuid": "cc8f6120-43a2-4724-a34f-25293f82ea43",
+                "sha1": "69df526c83c9b0fbfae0a4c6618873be"
                 
-            ],
-            [
-                file: "page3.tiff",
-                uuid: "8a655bb5-2ff3-4f6c-acef-68baedb87070",
-                sha1: "69df526c83c9b0fbfae0a4c6618873be"
-            ],
-            [
-                file: "page4.tiff",
-                uuid: "c553c267-bcba-4ddb-b9bb-0fe45ab2c3aa",
-                sha1: "69df526c83c9b0fbfae0a4c6618873be"
-            ]
+            },
+            {
+                "file": "page3.tiff",
+                "uuid": "8a655bb5-2ff3-4f6c-acef-68baedb87070",
+                "sha1": "69df526c83c9b0fbfae0a4c6618873be"
+            },
+            {
+                "file": "page4.tiff",
+                "uuid": "c553c267-bcba-4ddb-b9bb-0fe45ab2c3aa",
+                "sha1": "69df526c83c9b0fbfae0a4c6618873be"
+            }
         ]
     }
 }

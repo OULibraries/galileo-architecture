@@ -42,15 +42,15 @@ For books, we'd expect a JSON recipe to look something like:
             "pagemeta": "page.xml"
         },
         "pages": [
+            {
+                file: "page1.tiff",
+                uuid: "00e261a7-8531-4b08-a331-a8730c29e6c2",
+                sha1: "69df526c83c9b0fbfae0a4c6618873be"
+            },
             [
-                "page1.tiff",
-                "00e261a7-8531-4b08-a331-a8730c29e6c2",
-                "69df526c83c9b0fbfae0a4c6618873be"
-            ],
-            [
-                "page2.tiff",
-                "cc8f6120-43a2-4724-a34f-25293f82ea43",
-                "69df526c83c9b0fbfae0a4c6618873be"
+                file: "page2.tiff",
+                uuid: "cc8f6120-43a2-4724-a34f-25293f82ea43",
+                sha1: "69df526c83c9b0fbfae0a4c6618873be"
                 
             ],
             [

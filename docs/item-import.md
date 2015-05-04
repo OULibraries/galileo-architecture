@@ -54,14 +54,14 @@ For books, we'd expect a JSON recipe to look something like:
                 
             ],
             [
-                "page3.tiff",
-                "8a655bb5-2ff3-4f6c-acef-68baedb87070",
-                "69df526c83c9b0fbfae0a4c6618873be"
+                file: "page3.tiff",
+                uuid: "8a655bb5-2ff3-4f6c-acef-68baedb87070",
+                sha1: "69df526c83c9b0fbfae0a4c6618873be"
             ],
             [
-                "page4.tiff",
-                "c553c267-bcba-4ddb-b9bb-0fe45ab2c3aa",
-                "69df526c83c9b0fbfae0a4c6618873be"
+                file: "page4.tiff",
+                uuid: "c553c267-bcba-4ddb-b9bb-0fe45ab2c3aa",
+                sha1: "69df526c83c9b0fbfae0a4c6618873be"
             ]
         ]
     }

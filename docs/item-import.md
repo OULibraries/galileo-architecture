@@ -45,23 +45,27 @@ For books, we'd expect a JSON recipe to look something like:
             {
                 "file": "page1.tiff",
                 "uuid": "00e261a7-8531-4b08-a331-a8730c29e6c2",
-                "sha1": "69df526c83c9b0fbfae0a4c6618873be"
+                "sha1": "69df526c83c9b0fbfae0a4c6618873be",
+                "exif": "page1.tiff.exif"
             },
             {
                 "file": "page2.tiff",
                 "uuid": "cc8f6120-43a2-4724-a34f-25293f82ea43",
-                "sha1": "69df526c83c9b0fbfae0a4c6618873be"
+                "sha1": "69df526c83c9b0fbfae0a4c6618873be",
+                "exif": "page2.tiff.exif"
                 
             },
             {
                 "file": "page3.tiff",
                 "uuid": "8a655bb5-2ff3-4f6c-acef-68baedb87070",
-                "sha1": "69df526c83c9b0fbfae0a4c6618873be"
+                "sha1": "69df526c83c9b0fbfae0a4c6618873be",
+                "exif": "page3.tiff.exif"
             },
             {
                 "file": "page4.tiff",
                 "uuid": "c553c267-bcba-4ddb-b9bb-0fe45ab2c3aa",
-                "sha1": "69df526c83c9b0fbfae0a4c6618873be"
+                "sha1": "69df526c83c9b0fbfae0a4c6618873be",
+                "exif": "page4.tiff.exif"
             }
         ]
     }

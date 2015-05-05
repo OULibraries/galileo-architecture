@@ -40,7 +40,7 @@ For books, we'd expect a JSON recipe to look something like:
         "uuid": "ba8d9603-14d5-4cb8-8f61-8ddaca9e6be0",
         "metadata": {
             "marcxml": "book.xml",
-            "thumbnail: "thumbnail.tiff"
+            "thumbnail": "thumbnail.tiff"
         },
         "pages": [
             {

@@ -40,6 +40,7 @@ For books, we'd expect a JSON recipe to look something like:
         "uuid": "ba8d9603-14d5-4cb8-8f61-8ddaca9e6be0",
         "metadata": {
             "marcxml": "book.xml",
+            "thumbnail: "thumbnail.tiff"
         },
         "pages": [
             {
@@ -71,6 +72,15 @@ For books, we'd expect a JSON recipe to look something like:
     }
 }
 ```
+
+The `import` key specifies what kind of object should be created. 
+
+The `update` key specifies whether the recipe should be allowed to modify existing objects, or only to create new ones. `update` is fales by default, and should only rarely be true. 
+
+
+
+
+
 
 ## Object Creation Details
 

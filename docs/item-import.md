@@ -31,47 +31,10 @@ bags.
 
 For books, we'd expect a JSON recipe to look something like:
 
+* [Book Recipe](https://gist.github.com/lo5an/553a1901a00be160b138)
+* [Image Set Recipe](https://gist.github.com/lo5an/75bb7a3b77f89d93d300)
  
- ```json
- {
-    "recipe": {
-        "import": "book",
-        "update": true,
-        "uuid": "ba8d9603-14d5-4cb8-8f61-8ddaca9e6be0",
-        "metadata": {
-            "marcxml": "book.xml",
-            "thumbnail": "thumbnail.tiff"
-        },
-        "pages": [
-            {
-                "file": "page1.tiff",
-                "uuid": "00e261a7-8531-4b08-a331-a8730c29e6c2",
-                "sha1": "69df526c83c9b0fbfae0a4c6618873be",
-                "exif": "page1.tiff.exif.txt"
-            },
-            {
-                "file": "page2.tiff",
-                "uuid": "cc8f6120-43a2-4724-a34f-25293f82ea43",
-                "sha1": "69df526c83c9b0fbfae0a4c6618873be",
-                "exif": "page2.tiff.exif.txt"
-                
-            },
-            {
-                "file": "page3.tiff",
-                "uuid": "8a655bb5-2ff3-4f6c-acef-68baedb87070",
-                "sha1": "69df526c83c9b0fbfae0a4c6618873be",
-                "exif": "page3.tiff.exif.txt"
-            },
-            {
-                "file": "page4.tiff",
-                "uuid": "c553c267-bcba-4ddb-b9bb-0fe45ab2c3aa",
-                "sha1": "69df526c83c9b0fbfae0a4c6618873be",
-                "exif": "page4.tiff.exif.txt"
-            }
-        ]
-    }
-}
-```
+ 
 
 The `import` key specifies what kind of object should be created. 
 
